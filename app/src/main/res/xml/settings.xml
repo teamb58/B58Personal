@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="B58 MODs"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cmwmobile="http://schemas.android.com/apk/res/com.whatsapp" xmlns:robobunny="http://robobunny.com">
+    <SwitchPreference android:title="Receipt" android:key="HideReceipt" android:defaultValue="false" />
+    <Preference android:title="Open Log">
+        <intent android:targetPackage="com.whatsapp" android:targetClass="com.whatsapp.plus.ReadLogFile" />
+    </Preference>
+    <Preference android:title="Clear log" android:key="clear_logs" />
+    <Preference android:title="Choose Launcher Icons">
+        <intent android:targetPackage="com.whatsapp" android:targetClass="com.whatsapp.architjn.ui.activity.IconChoose" />
+    </Preference>
+    <com.B58works.Activities android:title="Reset" android:key="reset" />
+</PreferenceScreen>
